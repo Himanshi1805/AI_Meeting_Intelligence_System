@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Data files (ignore generated files)
+data/audio/*
+data/transcripts/*
+data/summaries/*
+data/actions/*
+
+# Keep folder structure
+!data/audio/.gitkeep
+!data/transcripts/.gitkeep
+!data/summaries/.gitkeep
+!data/actions/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
